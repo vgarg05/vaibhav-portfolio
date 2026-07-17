@@ -14,10 +14,7 @@ export default function Resume() {
               <p className="mt-2 max-w-2xl leading-7 text-slate-400">
                 Resume includes education, technical skills, AI & ML internship, NLP/RAG projects, data visualization, and contact details.
               </p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="tag"><Sparkles size={14} />Placement-ready</span>
-                <span className="tag">Single PDF asset</span>
-              </div>
+
             </div>
           </div>
           <a className="btn-primary" href={profile.resume} download><Download size={18} />Download Resume</a>
